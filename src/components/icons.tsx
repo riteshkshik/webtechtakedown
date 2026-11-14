@@ -1,8 +1,10 @@
 import React from "react";
 
-export function YoutubeIcon({ className = "w-6 h-6", ...props }: React.SVGProps<SVGSVGElement>) {
+export function YoutubeIcon({ className = "w-6 h-6", width = 24, height = 24, ...props }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -18,9 +20,11 @@ export function YoutubeIcon({ className = "w-6 h-6", ...props }: React.SVGProps<
   );
 }
 
-export function TelegramIcon({ className = "w-6 h-6", ...props }: React.SVGProps<SVGSVGElement>) {
+export function TelegramIcon({ className = "w-6 h-6", width = 24, height = 24, ...props }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
